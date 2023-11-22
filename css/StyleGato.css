@@ -1,6 +1,6 @@
 @font-face {
     font-family: shrekFont;
-    src: url(../fonts/Shrek.ttf);
+    src: url(../fonts/Puss_in_Boots.ttf);
   }
  
  * {
@@ -12,7 +12,7 @@
  }
 
  html {
-     background-image: url(../images/background.png);
+     background-image: url(../images/Gatobackground.png);
  }
 
  body {
@@ -24,9 +24,8 @@
  }
 
  header {
-     background-color: #ACB992;
+     background-color: black;
      width: 100%;
-
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -86,44 +85,29 @@
      padding-right: 20px;
     
  }
- h1{
+h1,h2,h3,th{
     font-family: shrekFont;
     padding: 20px 20px;
-    color: #464E2E;
-    text-align: center;
-    font-size: 75px;
-    margin-top: 50px;
-    margin-bottom: 50px;
- }
-h2,h3,th{
-    font-family: shrekFont;
-    padding: 20px 20px;
-    color: #464E2E;
-    text-align: center;
-    font-size: 75px;
-    
-}
 
+
+
+}
  section {}
 
  .main {
-     /*height: 80px;*/
+     height: 80vh;
      display: flex;
  }
 
  .menu a:hover {
-     background-color: #464E2E;
+     background-color: #F3B664;
      border-radius: 15px;
      color: #E9E5D6;
      font-size: 22px;
  }
 
  .mapa img {
-     width: 80%;
-     margin-left: 160px;
-     margin-right: 160px;
-     margin-top: 20px;
-     margin-bottom: 20px;
+     width: 100%;
  }
 
  .personajes {
@@ -132,15 +116,16 @@ h2,h3,th{
      max-height: fit-content;
      justify-content: center;
 
+
  }
 
 
  .personajes .card {
-     background-color: #ACB992;
+     background-color: rgb(223, 209, 209);
      width: 270px;
      margin: 10px;
      text-align: center;
-     height: 600px;
+     height: 500;
      font-size: 30px;
      border-radius: 20px;
      box-shadow: 5px 5px 5px black;
@@ -156,15 +141,9 @@ h2,h3,th{
 
  .personajes .card .info {
      height: 250px;
-     width: 250px;
+     margin: 250px;
 
  }
- .Argumento p{
-    margin: 50px;
-    font-size: 20px;
-}
-
-
  .argumento img{
     width: 150px;
     height: 150px;
@@ -172,15 +151,14 @@ h2,h3,th{
 
  .personajes .card .info h2 {
      font-size: 24px;
-     color: #E9E5D6;
+     color: #3913ac;
      text-align: center;
-     background: #362706;
-     display: inline-block;
+     background: #f4cf3a;
  }
 
  .personajes .card .info p {
-     font-size: 18px;
-     color: #E9E5D6;
+     font-size: 16px;
+     color: #13ac18;
      margin: 15px;
      text-align: justify;
      visibility: none;
@@ -201,26 +179,21 @@ h2,h3,th{
     padding-left: 20px;
  }
 
- /* ul ol */
- .reparto ul {
-    list-style-image: url(../icons/shrek.png);
-    padding-left: 80px;
-    font-size: 20px;
-    
-  }
-
  .premios {
      max-height: fit-content;
      display: flex;
      justify-content: center;
  }
-
+/* ul ol */
+.reparto ul {
+    list-style-image: url(../icons/shrek.png);
+    padding-left: 60px;
+    
+  }
  /*tables style*/
  .tablezone {
      padding: 15px;
-     width: 80%;
-     margin: 0 auto;
-     box-sizing: border-box;
+     width: 100%;
  }
 
  table {
@@ -230,10 +203,11 @@ h2,h3,th{
  table,
  th,
  td {
-     border: 2px solid #464E2E;
+     border: 2px solid #f4cf3a;
      padding: 15px;
      border-collapse: collapse;
-     font-size: 20px;
+     font-size: 16px;
+	 text-decoration: none;
 
  }
 
@@ -246,7 +220,7 @@ h2,h3,th{
  }
 
  footer {
-     background-color: #464E2E;
+     background-color: #F3B664;
      text-align: center;
      font-size: 14px;
      height: 50px;
