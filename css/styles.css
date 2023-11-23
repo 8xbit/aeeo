@@ -310,6 +310,7 @@ footer span {
     background-color: whitesmoke;
     width: 40%;
     border-radius: 20px;
+    height: fit-content;
 
     box-shadow: 3px 3px 3px rgb(79, 76, 76);
     display: flex;
@@ -326,6 +327,8 @@ footer span {
     box-shadow: 3px 3px 3px rgb(79, 76, 76);
     display: flex;
     padding: 20px;
+        height: fit-content;
+
 }
 
 .about,
