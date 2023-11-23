@@ -95,9 +95,7 @@ header {
 
 }
 .audio{
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
 }
 iframe {
     width: 100%;
@@ -431,10 +429,10 @@ input[type=reset]:hover {
 
     h1 {
         font-family: shrekFont;
-        padding: 10px ;
+        padding: 7px ;
         color: #464E2E;
         text-align: center;
-        font-size: 45px;
+        font-size: 40px;
         margin-top: 25px;
         margin-bottom: 25px;
     }
@@ -444,10 +442,10 @@ input[type=reset]:hover {
     }
     h2 {
         font-family: shrekFont;
-        padding: 10px;
+        padding: 7px;
         color: #464E2E;
         text-align: center;
-        font-size: 45px;
+        font-size: 40px;
     
     }
     
