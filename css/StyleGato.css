@@ -85,7 +85,18 @@
      padding-right: 20px;
     
  }
-h1,h2,h3,th{
+ 
+ h2{
+	  font-family: shrekFont;
+    padding: 20px 20px;
+    color: black;
+    text-align: center;
+    font-size: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ 
+h1,h3,th{
     font-family: shrekFont;
     padding: 20px 20px;
 
@@ -382,3 +393,11 @@ h1,h2,h3,th{
 
     }
   }
+#wiki:link {
+  color: green;
+  background-color: transparent;
+}
+#wiki:visited {
+  color: green;
+  background-color: transparent;
+}
