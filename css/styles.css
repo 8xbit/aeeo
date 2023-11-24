@@ -194,8 +194,9 @@ h3 {
     background-color: transparent;
   }
 .Argumento p {
-    margin: 50px;
+    margin: 75px;
     font-size: 20px;
+    text-align: justify;
 }
 
 
@@ -310,7 +311,6 @@ footer span {
     background-color: whitesmoke;
     width: 40%;
     border-radius: 20px;
-    height: fit-content;
 
     box-shadow: 3px 3px 3px rgb(79, 76, 76);
     display: flex;
@@ -327,8 +327,6 @@ footer span {
     box-shadow: 3px 3px 3px rgb(79, 76, 76);
     display: flex;
     padding: 20px;
-        height: fit-content;
-
 }
 
 .about,
@@ -512,6 +510,16 @@ input[type=reset]:hover {
         height: auto;
         justify-content: center;
 
+    }
+    .Argumento p {
+        margin: 15px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .reparto ul {
+        padding-left: 28px;
+        font-size: 16px;
+    
     }
     table,
     th,

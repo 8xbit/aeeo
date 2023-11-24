@@ -32,8 +32,6 @@
      padding: 20px 50px;
  }
 
- .logo {}
-
  .logo img {
      width: 256px;
      height: 100px;
@@ -106,7 +104,7 @@ h1,h3,th{
  section {}
 
  .main {
-     height: 80vh;
+     height: 50vh;
      display: flex;
  }
 
@@ -117,71 +115,18 @@ h1,h3,th{
      font-size: 22px;
  }
 
- .mapa img {
-     width: 100%;
- }
 
- .personajes {
-     display: flex;
-     flex-wrap: wrap;
-     max-height: fit-content;
-     justify-content: center;
-
-
- }
-
-
- .personajes .card {
-     background-color: rgb(223, 209, 209);
-     width: 270px;
-     margin: 10px;
-     text-align: center;
-     height: 500;
-     font-size: 30px;
-     border-radius: 20px;
-     box-shadow: 5px 5px 5px black;
- }
-
- .personajes .poster img {
-     width: 270px;
-     height: 266px;
-     padding: 7px;
-     border-radius: 50%;
- }
-
-
- .personajes .card .info {
-     height: 250px;
-     margin: 250px;
-
- }
+ .argumento p {
+    margin: 75px;
+    font-size: 20px;
+    text-align: justify;
+}
  .argumento img{
     width: 150px;
     height: 150px;
  }
 
- .personajes .card .info h2 {
-     font-size: 24px;
-     color: #3913ac;
-     text-align: center;
-     background: #f4cf3a;
- }
-
- .personajes .card .info p {
-     font-size: 16px;
-     color: #13ac18;
-     margin: 15px;
-     text-align: justify;
-     visibility: none;
-
- }
-
- #card:hover .info p {
-     cursor: pointer;
-     background-color: rgb(255, 127, 172);
-     display: block;
-
- }
+ 
  article p{
     padding-left: 5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -196,31 +141,30 @@ h1,h3,th{
      justify-content: center;
  }
 /* ul ol */
-.reparto ul {
-    list-style-image: url(../icons/shrek.png);
-    padding-left: 60px;
-    
+.curiosidades ul {
+    list-style-image: url(../icons/gato.png);
+    padding-left: 80px;
+    font-size: 20px;
   }
  /*tables style*/
  .tablezone {
-     padding: 15px;
-     width: 100%;
- }
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
- table {
-     border-radius: 10px;
- }
+table {
+    border-radius: 10px;
+}
 
- table,
- th,
- td {
-     border: 2px solid #f4cf3a;
-     padding: 15px;
-     border-collapse: collapse;
-     font-size: 16px;
-	 text-decoration: none;
+table,th,td {
+    border: 2px solid #F3B664;
+    padding: 15px;
+    border-collapse: collapse;
+    font-size: 20px;
 
- }
+}
 
  table .nominado {
      background-color: #f5caca;
@@ -370,12 +314,6 @@ h1,h3,th{
     cursor: pointer;
 }
 
-#audio {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 #wiki:link {
   color: green;
